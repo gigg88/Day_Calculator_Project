@@ -1,0 +1,42 @@
+body{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.currentDate,
+#optionDate,
+#flightDates{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+.containerDate,
+.containerFlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 40%;
+    min-height: 200px;
+    max-width: 250px;
+}
+
+.containerDate:hover,
+.containerFlight:hover {
+    background-color: rgb(138, 138, 114);
+    height: 210px;
+    width: 260px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+}
